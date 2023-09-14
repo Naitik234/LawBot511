@@ -46,7 +46,7 @@ qa_chain = RetrievalQA.from_chain_type(llm=local_llm,
 
 with gr.Blocks() as gradioUI:
     
-    gr.Image('lawbot511.png')
+    gr.Image('Lawbot511.png')
     
     with gr.Row():
         chatbot = gr.Chatbot()
